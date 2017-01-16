@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+/* Set the background image sources */
+#tile1_music { background-image: url("../assets/img/tile1_music.png"); }
+#tile1_sports { background-image: url("../assets/img/tile1_sports.png"); }
+#tile1_games { background-image: url("../assets/img/tile1_games.png"); }
+#tile1_reading { background-image: url("../assets/img/tile1_reading.png"); }
+#tile1_computers { background-image: url("../assets/img/tile1_computers.png"); }
+#tile1_tv { background-image: url("../assets/img/tile1_tv.png"); }
+#tile7_gym { background-image: url("../assets/img/tile1_gym.png"); }
+#tile8_boats { background-image: url("../assets/img/tile1_boats.png"); }
+#tile9_camera { background-image: url("../assets/img/tile1_camera.png"); }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+#page1 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #4B260F
+}
+
+/*
+ul { list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; }
+li { margin: 5px; padding: 5px; width: 350px; }
+*/
+
+table {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+#board {
+    width:  306px;
+    height: 258px;
+    border: 1px solid black;
+    /* background: 49240E;  */
+    background-image: url("../assets/img/background.jpg");
+    background-position: center center;
+    scroll: false;
+}
+
+#draggable {
+width: 78px;
+height: 78px;
+display: table-cell;
+background: #eee;
+background-position: center center;
+background-repeat: no-repeat;
+padding: 0px;
+}
+
+#droppable {
+width: 78px;
+height: 78px;
+display: table-cell;
+vertical-align: middle;
+background-position: center center;
+background-image: url("../assets/img/tile9_camera2.png");
+background-repeat: no-repeat;
+color: #682F0B;
+padding: 0px;
+}
+
+
+
+div.centered 
+{
+    text-align: center;
+}
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
+.page1 .ui-footer {
+    background: none;
+    border: none;
+    bottom: 0;
+}
+small {
+    font-size: .75em;
+    color: #666;
+}
+
